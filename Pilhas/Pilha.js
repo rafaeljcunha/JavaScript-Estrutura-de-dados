@@ -28,29 +28,4 @@ class Pilha {
   }
 }
 
-const pilha = new Pilha();
-
-console.log(pilha.isEmpty());
-
-pilha.push(5);
-pilha.push(8);
-
-console.log(pilha.peek());
-
-pilha.push(11);
-
-console.log(pilha.size());
-console.log(pilha.isEmpty());
-
-pilha.push(15);
-
-console.log(pilha.peek());
-
-pilha.pop();
-pilha.pop();
-
-console.log(pilha.size());
-
-pilha.clear();
-
-console.log(pilha.isEmpty());
+module.exports = Pilha;
