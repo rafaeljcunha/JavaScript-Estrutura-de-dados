@@ -1,4 +1,4 @@
-class Pilha {
+class Stack {
   constructor() {
     this.items = [];
   }
@@ -28,4 +28,4 @@ class Pilha {
   }
 }
 
-module.exports = Pilha;
+module.exports = Stack;

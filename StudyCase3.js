@@ -2,10 +2,10 @@
  Realizar a conversão de decimais para qualquer base, utilizando pilha (LIFO).
 */
 
-const Pilha = require("./Pilhas/Pilha");
+const Stack = require("./Stack/Stack");
 
 function converToBase({ value, base }) {
-  const stackClass = new Pilha();
+  const stackClass = new Stack();
 
   const digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
   let number = value;

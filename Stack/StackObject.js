@@ -1,4 +1,4 @@
-class PilhaComObjeto {
+class StackObject {
   constructor() {
     this.count = 0;
     this.items = {};
@@ -51,23 +51,23 @@ class PilhaComObjeto {
   }
 }
 
-const pilhaComObjeto = new PilhaComObjeto();
+const stackObject = new StackObject();
 
-pilhaComObjeto.push(5);
-pilhaComObjeto.push(8);
-pilhaComObjeto.push(11);
+stackObject.push(5);
+stackObject.push(8);
+stackObject.push(11);
 
-console.log(pilhaComObjeto.count);
-console.log(pilhaComObjeto.items);
-console.log(pilhaComObjeto.size());
-console.log(pilhaComObjeto.isEmpty());
-console.log(pilhaComObjeto.toString());
+console.log(stackObject.count);
+console.log(stackObject.items);
+console.log(stackObject.size());
+console.log(stackObject.isEmpty());
+console.log(stackObject.toString());
 
-pilhaComObjeto.pop();
+stackObject.pop();
 
-console.log(pilhaComObjeto.peek());
-console.log(pilhaComObjeto.items);
+console.log(stackObject.peek());
+console.log(stackObject.items);
 
-pilhaComObjeto.clear();
+stackObject.clear();
 
-console.log(pilhaComObjeto.isEmpty());
+console.log(stackObject.isEmpty());

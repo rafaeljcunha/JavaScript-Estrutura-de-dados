@@ -2,10 +2,10 @@
  Realizar a conversão de decimais para binário, utilizando pilha (LIFO).
 */
 
-const Pilha = require("./Pilhas/Pilha");
+const Stack = require("./Stack/Stack");
 
 function convertDecimalToBinary(value) {
-  const stackClass = new Pilha();
+  const stackClass = new Stack();
 
   let number = value;
   let rest = 0;
